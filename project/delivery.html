@@ -5,15 +5,14 @@
     <title>Title</title>
 </head>
 <body>
-<a href="extra.html">Назад</a>
-<h2>Выберите способ доставки заказа</h2><hr />
-
-<input type="radio"><span>Курьером</span><br />
-<input type="radio"><span>Дронами</span><br />
-<input type="radio"><span>Пневмопочтой</span><br />
-<input type="radio"><span>Почтой России</span><br />
-
-<button><a href="address.html">Продолжить</a></button>
-
+    <a href="extra.html">Назад</a>
+    <h2>Выберите способ доставки заказа</h2><hr />
+    <form action="address.html">
+        <input type="radio" value="courier"><span>Курьером</span><br />
+        <input type="radio" value="dron"><span>Дронами</span><br />
+        <input type="radio" value="vacuumpost"><span>Пневмопочтой</span><br />
+        <input type="radio" value="post"><span>Почтой России</span><br />
+        <input type="submit" value="Продолжить">
+    </form>
 </body>
 </html>
